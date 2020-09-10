@@ -29,7 +29,7 @@ if coefficientA == 0 {
         print ("\nУравнение не имеет вещественных корней, так как дискриминант меньше 0.")
     } else {
         let root:Float = (-coefficientB)/(2*coefficientA)
-        print ("\nКорень x =", root)
+        print ("\nКорень x =", NSString(format: "%.2f", root))
     }
 }
 print("\n========================================================================================\n")
