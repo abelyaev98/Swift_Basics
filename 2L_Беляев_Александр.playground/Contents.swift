@@ -39,9 +39,9 @@ print("\n=======================================================================
 
 // Задание 4. Удалить из этого массива все четные числа и все числа, которые не делятся на 3.
 
-var filteredNums = numbers.filter({$0 % 2 != 0})
-filteredNums = filteredNums.filter({$0 % 3 == 0})
-print ("Итоговый массив: \(filteredNums)")
+var filteredNumbers = numbers.filter({$0 % 2 != 0})
+filteredNumbers = filteredNumbers.filter({$0 % 3 == 0})
+print ("Итоговый массив: \(filteredNumbers)")
 
 print("\n========================================================================================\n")
 
